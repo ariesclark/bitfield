@@ -2,9 +2,9 @@
   "name": "bitfield",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "bitfield.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
