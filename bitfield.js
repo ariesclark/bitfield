@@ -13,7 +13,11 @@ class Bitfield {
     });
   }
 
-  is (flag, bool) {
+  equals (bit) {
+    return this.field === this.resolve(bit);
+  }
+
+  is (flag, bool = true) {
     return this.get(flag) === bool;
   }
 
