@@ -7,7 +7,7 @@ class Bitfield {
     this.flags = {};
     
     Object.keys(flags).forEach(key => {
-      if (typeof flag[key] === "number") {
+      if (typeof flags[key] === "number") {
         this.flags[key.toUpperCase()] = flags[key];
       }
     });
